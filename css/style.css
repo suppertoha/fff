@@ -1,0 +1,35 @@
+body {
+  font-family: serif;
+  font-size: 20px;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__content {
+  text-align: center;
+}
+
+.main__content h1 {
+  color: #6a5e75;
+  font-size: 65px;
+}
+
+.main__content h2 {
+  color: #4c81b1;
+  font-size: 60px;
+}
